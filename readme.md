@@ -4,7 +4,12 @@ Various tests with the Eye messages, notorious secret messages found in the game
 
 ## Rune's Reading Order
 
-So far the only test is a new reading order which for some reason checks out so far in many ways despite being completely different from the trigram and 83 religion. This produces base-10 values between 0 and 84, with no gaps. Here is the output of the python script:
+So far the only test is a new reading order which for some reason checks out so far in many ways despite being completely different from the trigram and 83 religion. This produces base-10 values between 0 and 84, with no gaps. 
+
+You can view a more detailed analysis here:
+https://docs.google.com/spreadsheets/d/1XbB7UssF_DyaaVAWYnmK65PwchKbcXnl_lOBaBFOPw4/edit?usp=sharing
+
+Here is the output of the python script:
 
 ```
 [EAST 1]
