@@ -338,13 +338,13 @@ def t2_sort(array):
     s = 0
     f = 0
     while j < len(array):
-        #print("j: " + str(j) + " i: " + str(i-f))
+        #print("j: " + str(j) + " i: " + str(i-s-f))
         new_arr[j] = array[i-s-f]
         if (f == 0): i += 2
         elif (f == 1): i -= 2
         if (i >= len(array)):
             f = 1
-            if (len(array) % 2) == 0 : s = 1
+            if (len(array) % 2) == 0 : s = 2
         j += 1
     return new_arr
 
